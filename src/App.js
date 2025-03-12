@@ -14,8 +14,8 @@ function App() {
     <div>
       
      <div className='tab-container'>
-     <button value="register"  onClick={handleForm}>REGISTER</button>
-     <button onClick={handleForm} >LOGIN</button>
+     <button className="btn"value="register"  onClick={handleForm}>REGISTER</button>
+     <button className="btn" onClick={handleForm} >LOGIN</button>
      </div>
       { formState === "register" ? <FormComponent/> : <LogInComponent/> }
       
