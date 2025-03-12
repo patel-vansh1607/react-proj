@@ -12,7 +12,7 @@ const LogInComponent = () => {
             <label htmlFor="password1">Password</label>
             <input id="password1" name="password" type="password" placeholder="Enter Password" required />
             
-            <button id="submitButton">LOGIN</button>
+            <button className="btn2" id="submitButton">LOGIN</button>
             
             <p className="forgot-password">Forgot password?</p>
         </div>

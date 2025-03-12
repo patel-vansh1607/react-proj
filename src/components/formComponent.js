@@ -24,7 +24,7 @@ const FormComponent = () => {
       <label htmlFor="confirmPassword">Confirm Password</label>
       <input id="confirmPassword" name="confirmPassword" type="password" placeholder="Confirm Password" required />
       
-      <button id="submitButton">🏁 Race to Register!</button>
+      <button className="btn3" id="submitButton">REGISTER</button>
     </div>
   );
 };
