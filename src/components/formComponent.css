@@ -6,23 +6,24 @@
 
 .form-container{
     width: 600px;
-    height: 600px;
+    height: 650px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    max-width: 400px; 
+    margin: auto; 
+    padding: 20px;
+    background: #f7f4f1;
+    border-radius: 15px;
+    border: #888;
+    border-width: 20px;
 }
  .title{
     font-family: 'F1BOLD', sans-serif;
 }
-.form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centers everything horizontally */
-    width: 100%;
-    max-width: 400px; /* Adjust width */
-    margin: auto; /* Center the form */
-    padding: 20px;
-    background: #f7f4f1;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+
 
 .title {
     font-size: 24px;
@@ -64,5 +65,24 @@ input::placeholder {
     font-weight: 400;
     font-style: normal;
 }
-
+ .form-container .btn3{
+    margin-top: 20px;
+    width: 100px;
+    background-color: #ee0000 ;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn3:hover{
+    background-color:#fff; 
+    color: black;
+    border: 1px solid #ee0000;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
