@@ -5,6 +5,7 @@ const FormComponent = () => {
     
     <div className="form-container">
       <h1 className="title">CREATE ACCOUNT</h1>
+      <hr></hr>
       <label className="firstname" htmlFor="firstName">First Name</label>
       <input  id="firstName" name="firstName" type="text" placeholder="First Name" required maxLength="25" />
       
