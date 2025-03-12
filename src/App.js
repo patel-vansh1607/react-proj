@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       
-     <div className='tab-container'>
+     <div className='tab-container' style={{ marginBottom: '20px'}}>
      <button className="btn"value="register"  onClick={handleForm}>REGISTER</button>
      <button className="btn" onClick={handleForm} >LOGIN</button>
      </div>
