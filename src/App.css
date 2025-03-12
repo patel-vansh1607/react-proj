@@ -35,5 +35,5 @@ button.active::after {
 }
 
 button:hover {
-  color: rgb(201, 32, 32);
+  color: #ff1e00;
 }
