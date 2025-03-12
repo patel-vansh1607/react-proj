@@ -4,6 +4,9 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
+ body{
+    background-color: #f7f4f1;
+ }
 .login-container{
     width: 600px;
     height: 400px;
@@ -17,8 +20,7 @@
     padding: 20px;
     background: #f7f4f1;
     border-radius: 15px;
-    border: #888;
-    border-width: 20px;
+    border: 1px solid #15151e;
 }
  .title{
     font-family: 'F1BOLD', sans-serif;
@@ -38,19 +40,20 @@ hr {
 }
 
 label {
-    align-self: flex-start; /* Align labels to the left */
+    align-self: flex-start; 
     font-weight: bold;
     margin: 5px 0;
     font-family: "Titillium Web", sans-serif;
     font-weight: 400;
     font-style: normal;
+    /* Removed border from label */
 }
 
 input {
-    width: 100%; /* Makes inputs full width */
+    width: 100%; 
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #15151e; 
     border-radius: 5px;
     outline: none;
     font-family: "Titillium Web", sans-serif;
