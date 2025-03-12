@@ -13,8 +13,10 @@ function App() {
   return (
     <div>
       
-      <button value="register"  onClick={handleForm}>REGISTER</button>
-      <button onClick={handleForm} >LOGIN</button>
+     <div className='tab-container'>
+     <button value="register"  onClick={handleForm}>REGISTER</button>
+     <button onClick={handleForm} >LOGIN</button>
+     </div>
       { formState === "register" ? <FormComponent/> : <LogInComponent/> }
       
                   
