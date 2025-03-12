@@ -4,10 +4,11 @@ import FormComponent from './components/formComponent';
 import LogInComponent from './components/LogInComponent';
 
 function App() {
+  const handleForm = (e) => {}
   return (
     <div>
-      <button id="loginButton" onClick={handleform} >LOGIN</button>
-      <button id="registerButton" onClick={handleform}>REGISTER</button>
+      <button id="loginButton" onClick={handleForm} >LOGIN</button>
+      <button id="registerButton" onClick={handleForm}>REGISTER</button>
       <FormComponent/>
       <LogInComponent/>
     </div>
