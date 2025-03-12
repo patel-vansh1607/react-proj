@@ -3,6 +3,7 @@ import FormComponent from './components/formComponent';
 import LogInComponent from './components/LogInComponent';
 import { useState } from 'react';
 import Navbar from './components/navBar';
+import FooterComp from './components/footer';
 
 function App() {
   const [formState, setFormState] = useState("register"); 
@@ -19,8 +20,7 @@ function App() {
      <button className="btn" onClick={handleForm} >LOGIN</button>
      </div>
       { formState === "register" ? <FormComponent/> : <LogInComponent/> }
-      
-                  
+      <FooterComp />          
     </div>
   );
 }
