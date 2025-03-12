@@ -1,6 +1,7 @@
 const FormComponent = () => {
 return(
     <div>
+        <h1>REGISTRATION</h1>
         <label for="FirstName"></label>
         <input id="firstName" name="firstName" type="text" placeholder="First Name" required maxlength="25"/>
         <label for="LastName"></label>
