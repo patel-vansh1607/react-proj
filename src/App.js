@@ -6,8 +6,8 @@ import LogInComponent from './components/LogInComponent';
 function App() {
   return (
     <div>
-      <button id="loginButton" >LOGIN</button>
-      <button id="registerButton">REGISTER</button>
+      <button id="loginButton" onClick={handleform} >LOGIN</button>
+      <button id="registerButton" onClick={handleform}>REGISTER</button>
       <FormComponent/>
       <LogInComponent/>
     </div>
