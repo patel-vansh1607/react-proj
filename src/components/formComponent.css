@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'F1BOLD';
+    src: url(../../public/fonts/Formula1-Bold.otf);
+}
+
+.form-container .firstname .title{
+    font-family: 'F1BOLD', sans-serif;
+}
