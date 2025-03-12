@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'F1BOLD';
+    src: url(../../public/fonts/Formula1-Bold.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.login-container{
+    width: 600px;
+    height: 400px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    max-width: 400px; 
+    margin: auto; 
+    padding: 20px;
+    background: #f7f4f1;
+    border-radius: 15px;
+    border: #888;
+    border-width: 20px;
+}
+ .title{
+    font-family: 'F1BOLD', sans-serif;
+}
+
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+label {
+    align-self: flex-start; /* Align labels to the left */
+    font-weight: bold;
+    margin: 5px 0;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input {
+    width: 100%; /* Makes inputs full width */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+input::placeholder {
+    color: #888;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ .login-container .btn2{
+    margin-top: 20px;
+    width: 100px;
+    background-color: #ee0000 ;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn2:hover{
+    background-color:#fff; 
+    color: black;
+    border: 1px solid #ee0000;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.forgot-password{
+    cursor: pointer;
+}
