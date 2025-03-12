@@ -8,7 +8,6 @@ const LogInComponent = () => {
             <label for="Password"></label>
             <input id="password" name="Password" type="password" placeholder="Password" required />
             <button id="submitButton">LOGIN</button>
-
         </div>
     )
 }
