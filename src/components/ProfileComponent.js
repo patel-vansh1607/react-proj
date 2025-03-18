@@ -125,6 +125,13 @@ const ProfileComponent = () => {
             img_url: yukiTsunoda,
             race_number: "22",
         },
+        {
+            name: "ESTABAN OCON",
+            origin: france ,
+            racing_team: "Haas",
+            img_url: estabenOcon,
+            race_number: "31",
+        },
     ])
 
     return(
