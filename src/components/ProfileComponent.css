@@ -22,3 +22,11 @@
     align-items: center;
     width: 90%; 
 }
+.team-members {
+    width: 280px;  
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    background: white;
+    position: relative;
+}
