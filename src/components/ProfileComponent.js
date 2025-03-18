@@ -132,6 +132,13 @@ const ProfileComponent = () => {
             img_url: estabenOcon,
             race_number: "31",
         },
+        {
+            name: "OLIVER BEARMAN",
+            origin: unitedkingdom ,
+            racing_team: "Haas",
+            img_url: oliverBearman,
+            race_number: "87",
+        },
     ])
 
     return(
