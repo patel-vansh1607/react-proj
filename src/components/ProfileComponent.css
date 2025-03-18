@@ -83,3 +83,9 @@ img{
     margin-left: 10px;
 }
 
+.team-members img {
+    width: 100%;
+    max-width: 220px;
+    display: block;
+    margin: 0 auto;
+}
