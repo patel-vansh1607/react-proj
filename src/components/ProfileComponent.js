@@ -104,6 +104,13 @@ const ProfileComponent = () => {
             img_url: oscarPiastri,
             race_number: "81",
         },
+        {
+            name: "LEWIS HAMILTON",
+            origin: unitedkingdom ,
+            racing_team: "Ferrari",
+            img_url: lewisHamilton,
+            race_number: "44",
+        },
     ])
 
     return(
