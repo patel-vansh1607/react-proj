@@ -2,7 +2,6 @@ import './App.css';
 import FormComponent from './components/formComponent';
 import LogInComponent from './components/LogInComponent';
 import { useState } from 'react';
-import Navbar from './components/navBar';
 import FooterComp from './components/footer';
 import HeaderComponent from './components/HeaderComponent';
 import ProfileComponent from './components/ProfileComponent';
@@ -18,7 +17,6 @@ function App() {
     <div>
 
       <HeaderComponent />
-      <Navbar />
      <div className='tab-container' style={{ marginBottom: '20px'}}>
      <button className="btn"value="register"  onClick={handleForm}>REGISTER</button>
      <button className="btn" onClick={handleForm} >LOGIN</button>
