@@ -153,6 +153,13 @@ const ProfileComponent = () => {
             img_url: fernandoAlonso,
             race_number: "14",
         },
+        {
+            name: "Gabriel BORTOLETO",
+            origin: brazil ,
+            racing_team: "Kick Sauber",
+            img_url: gabrielBortoleto,
+            race_number: "5",
+        },
     ])
 
     return(
