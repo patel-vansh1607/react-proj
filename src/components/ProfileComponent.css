@@ -68,3 +68,11 @@ img{
     border-top: 1px solid #ccc;
     margin: 5px 0;
 }
+.team-racing_team {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    margin-left: 5px;
+    font-family: 'FLREGULAR', sans-serif;
+}
+
