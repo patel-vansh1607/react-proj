@@ -46,3 +46,9 @@
     justify-content: space-between;
     width: 100%;
 }
+.team-name {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    font-family: 'F1BOLD', sans-serif;
+}
