@@ -160,6 +160,13 @@ const ProfileComponent = () => {
             img_url: gabrielBortoleto,
             race_number: "5",
         },
+        {
+            name: "Issac HADJAR",
+            origin: france ,
+            racing_team: "Racing Bulls",
+            img_url: isackHadjar,
+            race_number: "6",
+        },
     ])
 
     return(
