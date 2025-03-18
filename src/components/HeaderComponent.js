@@ -1,7 +1,8 @@
 import { useState } from "react"
+import "./HeaderComponent.css"
 
 const HeaderComponent = () => {
-    const [links, setLinks] = useState([
+    const [links] = useState([
         "Home",
         "About",
         "Contact",
