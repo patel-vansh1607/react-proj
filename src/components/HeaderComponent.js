@@ -14,7 +14,7 @@ const HeaderComponent = () => {
             {links.map((li, key) =>{
                 return(
                     <div key={key}>
-                        <Link to={`/${li}`}>{li}</Link>
+                        <Link className="nav-links" to={`/${li}`}>{li}</Link>
                     </div>
                 )
             })}
