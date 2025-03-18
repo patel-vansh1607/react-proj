@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "./HeaderComponent.css"
 import { Link } from "react-router-dom"
+import logo from "../images/f1-logo.png"; 
 
 const HeaderComponent = () => {
     const [links] = useState([
@@ -11,6 +12,7 @@ const HeaderComponent = () => {
     ])
     return(
         <header>
+            <img src={logo} alt="F1 Logo" className="logo" />
             {links.map((li, key) =>{
                 return(
                     <div key={key}>
