@@ -167,6 +167,13 @@ const ProfileComponent = () => {
             img_url: isackHadjar,
             race_number: "6",
         },
+        {
+            name: "Liam LAWSON",
+            origin: newzeland ,
+            racing_team: "Red Bull Racing",
+            img_url: laimLawson,
+            race_number: "30",
+        },
     ])
 
     return(
