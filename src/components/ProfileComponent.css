@@ -120,3 +120,8 @@ img{
     font-family: 'FLREGULAR', sans-serif;
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 320px) { 
+    
+}
