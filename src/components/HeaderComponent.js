@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./HeaderComponent.css"
+import { Link } from "react-router-dom"
 
 const HeaderComponent = () => {
     const [links] = useState([
@@ -13,9 +14,8 @@ const HeaderComponent = () => {
             {links.map((li, key) =>{
                 return(
                     <div key={key}>
-                        <a href={`/${li}`}>{li}</a>
+                        <Link to={`/${li}`}>{li}</Link>
                     </div>
-                    
                 )
             })}
         </header>
