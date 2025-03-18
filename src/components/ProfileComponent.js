@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import {profile} from "../images/photo_2023-12-03_16-51-43.jpg"
+import profile from "../images/photo_2023-12-03_16-51-43.jpg"
+import "./ProfileComponent.css"
 
 
 const ProfileComponent = () => {
@@ -16,13 +17,13 @@ const ProfileComponent = () => {
     ])
 
     return(
-        <div>
+        <div className="div2">
             <h1>Meet the Team</h1>
-            <header>
+            <header className="header2">
             {team.map((member, index) =>{
                 return(
                     <div key={index} className="team-members">
-                        <img src={profile}></img>
+                        <img src={profile} width={100}></img>
                         <h2 className="member-name">{member.name}</h2>
                         <p className="member-role">{member.role}</p>
                         <p className="member-description">{member.description}</p>
