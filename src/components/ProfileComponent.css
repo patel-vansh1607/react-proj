@@ -75,4 +75,11 @@ img{
     margin-left: 5px;
     font-family: 'FLREGULAR', sans-serif;
 }
+.member-racing_number {
+    font-size: 60px;
+    color: orange;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 10px;
+}
 
