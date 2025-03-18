@@ -1,8 +1,16 @@
-const HeaderComponent = () => {
-    return(
-        <div>
+import { useState } from "react"
 
-        </div>
+const HeaderComponent = () => {
+    const [links, setLinks] = useState([
+        "Home",
+        "About",
+        "Contact",
+        "Auth"
+    ])
+    return(
+        <header>
+
+        </header>
     )
 }
 
