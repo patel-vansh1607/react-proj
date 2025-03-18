@@ -4,17 +4,32 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import AboutPage from './pages/about';
+import ContactPage from './pages/contact';
+import AuthPage from './pages/auth';
 
 
 const router = createBrowserRouter([
   {
-  path: "/home",
-  element: <App/>
-  },
-  {
     path: "/",
     element: <App/>
-    }
+  },
+  {
+    path: "/home",
+    element: <App/>
+  },
+  {
+    path: "/about",
+    element: <AboutPage/>
+  },
+  {
+    path: "/contact",
+    element: <ContactPage/>
+  },
+  {
+    path: "/auth",
+    element: <AuthPage/>
+  }
 ])
 
 
