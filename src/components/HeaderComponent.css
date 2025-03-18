@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'F1BOLD';
+    src: url(../../public/fonts/Formula1-Bold.otf);
+}
+@font-face {
+    font-family: 'FLREGULAR';
+    src: url(../../public/fonts/Formula1-Regular.otf);
+}
+
 header a {
     text-decoration: none ;
     padding: 24px;
@@ -8,7 +17,9 @@ header, .nav-links{
     flex-direction: row;
     color: azure;
     background-color: #333333;
-
+    font-family: 'FLREGULAR', sans-serif;
+    display: relative;
+    justify-content: center;
 }
 
 
@@ -16,3 +27,10 @@ header, .nav-links:hover{
     color: #ff1e00;
 }
 
+
+
+.logo{
+    width: 200px;
+    display: flex;
+    float: left;
+}
