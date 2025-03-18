@@ -1,0 +1,17 @@
+header a {
+    text-decoration: none ;
+    padding: 24px;
+    margin: 12px;
+}
+header, .nav-links{ 
+    display: flex;
+    flex-direction: row;
+    background-color: #333333;
+    color: azure;
+}
+
+
+header, .nav-links:hover{
+    color: #ff1e00;
+}
+
