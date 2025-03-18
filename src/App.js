@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Navbar from './components/navBar';
 import FooterComp from './components/footer';
 import HeaderComponent from './components/HeaderComponent';
+import ProfileComponent from './components/ProfileComponent';
 
 function App() {
   const [formState, setFormState] = useState("register"); 
@@ -15,6 +16,7 @@ function App() {
   }
   return (
     <div>
+
       <HeaderComponent />
       <Navbar />
      <div className='tab-container' style={{ marginBottom: '20px'}}>
