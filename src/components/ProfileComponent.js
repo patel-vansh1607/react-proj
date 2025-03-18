@@ -24,8 +24,19 @@ import carlozSainz from "../images/drivers/kimi-antonelli.avif"
 
 
 import unitedkingdom from  "../images/flags/united-kindgom.avif"
-
 import netherlands from  "../images/flags/netherlands.avif"
+import italy from  "../images/flags/united-kindgom.avif"
+import thailand from  "../images/flags/netherlands.avif"
+import canada from  "../images/flags/united-kindgom.avif"
+import germany from  "../images/flags/netherlands.avif"
+import moncacco from  "../images/flags/united-kindgom.avif"
+import australia from  "../images/flags/netherlands.avif"
+import france from  "../images/flags/netherlands.avif"
+import japan from  "../images/flags/united-kindgom.avif"
+import spain from  "../images/flags/netherlands.avif"
+import brazil from  "../images/flags/united-kindgom.avif"
+import newzeland from  "../images/flags/netherlands.avif"
+
 
 
 const ProfileComponent = () => {
