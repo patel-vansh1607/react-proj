@@ -90,6 +90,13 @@ const ProfileComponent = () => {
             img_url: nicoHulkenburg,
             race_number: "27",
         },
+        {
+            name: "CHARLES LECLERC",
+            origin: moncacco ,
+            racing_team: "Ferrari",
+            img_url: charlesLeclerc,
+            race_number: "16",
+        },
     ])
 
     return(
