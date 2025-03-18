@@ -29,6 +29,11 @@
     border-radius: 5px;
     background: white;
     position: relative;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.team-members:hover {
+    transform: scale(1.02); 
 }
 .team-members::before {
     content: "";
@@ -63,10 +68,14 @@ img{
 
 }
 .team-members hr {
+    border:0.5px solid red;
+    transition: width 0.3s ease-in-out;
     width: 100%;
-    border: none;
-    border-top: 1px solid #ccc;
-    margin: 5px 0;
+    margin: auto;
+}
+
+.team-members:hover hr  {
+    border:1.5px dashed red;
 }
 .team-racing_team {
     font-size: 14px;
@@ -105,3 +114,4 @@ img{
     height: auto;
     object-fit: contain;
 }
+
