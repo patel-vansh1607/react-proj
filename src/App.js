@@ -4,6 +4,7 @@ import LogInComponent from './components/LogInComponent';
 import { useState } from 'react';
 import Navbar from './components/navBar';
 import FooterComp from './components/footer';
+import HeaderComponent from './components/HeaderComponent';
 
 function App() {
   const [formState, setFormState] = useState("register"); 
@@ -14,6 +15,7 @@ function App() {
   }
   return (
     <div>
+      <HeaderComponent />
       <Navbar />
      <div className='tab-container' style={{ marginBottom: '20px'}}>
      <button className="btn"value="register"  onClick={handleForm}>REGISTER</button>
