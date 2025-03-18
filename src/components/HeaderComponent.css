@@ -6,8 +6,9 @@ header a {
 header, .nav-links{ 
     display: flex;
     flex-direction: row;
-    background-color: #333333;
     color: azure;
+    background-color: #333333;
+
 }
 
 
