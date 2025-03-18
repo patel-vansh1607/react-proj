@@ -83,6 +83,13 @@ const ProfileComponent = () => {
             img_url: lanceStroll,
             race_number: "18",
         },
+        {
+            name: "NICO HULKENBURG",
+            origin: germany ,
+            racing_team: "Kick Sauber",
+            img_url: nicoHulkenburg,
+            race_number: "27",
+        },
     ])
 
     return(
