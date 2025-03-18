@@ -11,7 +11,10 @@ const HeaderComponent = () => {
         <header>
             {links.map((li, key) =>{
                 return(
-                    <a key={key}>{li}</a>
+                    <div key={key}>
+                        <a href={`/${li}`}>{li}</a>
+                    </div>
+                    
                 )
             })}
         </header>
