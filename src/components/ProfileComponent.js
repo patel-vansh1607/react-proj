@@ -13,13 +13,14 @@ const ProfileComponent = () => {
             linked_in_url: "https://www.linkedin.com/in/vansh-patel-72650b26a",
             github_url: "https://github.com/patel-vansh1607",
             description: "I am Vansh Patel"
-        }
+        },
+        
     ])
 
     return(
         <div className="div2">
             <h1>Meet the Team</h1>
-            <header className="header2">
+            <div className="header2">
             {team.map((member, index) =>{
                 return(
                     <div key={index} className="team-members">
@@ -32,7 +33,7 @@ const ProfileComponent = () => {
                     </div>
                 )
             })}
-        </header>
+        </div>
         </div>
     )
 }
