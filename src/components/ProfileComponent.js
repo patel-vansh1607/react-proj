@@ -118,6 +118,13 @@ const ProfileComponent = () => {
             img_url: pierreGasly,
             race_number: "10",
         },
+        {
+            name: "YUKI TSUNODA",
+            origin: japan ,
+            racing_team: "Racing Bulls",
+            img_url: yukiTsunoda,
+            race_number: "22",
+        },
     ])
 
     return(
