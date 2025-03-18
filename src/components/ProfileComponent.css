@@ -30,3 +30,12 @@
     background: white;
     position: relative;
 }
+.team-members::before {
+    content: "";
+    width: 4px;
+    height: 100%;
+    background: orange;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
