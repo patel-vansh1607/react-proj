@@ -4,7 +4,7 @@ import landoNorris from "../images/drivers/lando-norris.avif"
 import unitedkingdom from  "../images/flags/united-kindgom.avif"
 import maxVerstapen from "../images/drivers/max-verstappen.avif"
 import netherlands from  "../images/flags/netherlands.avif"
-
+import georgeRussell from "../images/drivers/george-russell.avif"
 
 const ProfileComponent = () => {
     const [team] = useState ([
@@ -20,14 +20,14 @@ const ProfileComponent = () => {
             origin: netherlands ,
             racing_team: "Red Bull Racing",
             img_url: maxVerstapen,
-            race_number: "4",
+            race_number: "1",
         },
         {
             name: "GEORGE RUSSELL",
             origin: unitedkingdom ,
-            racing_team: "Mclaren",
-            img_url: landoNorris,
-            race_number: "4",
+            racing_team: "Mercedes",
+            img_url: georgeRussell,
+            race_number: "63",
         },
         
     ])
