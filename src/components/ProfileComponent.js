@@ -2,6 +2,8 @@ import { useState } from "react"
 import "./ProfileComponent.css"
 import landoNorris from "../images/drivers/lando-norris.avif"
 import unitedkingdom from  "../images/flags/united-kindgom.avif"
+import MaxVerstapen from "../images/drivers/max-verstappen.avif"
+import netherlands from  "../images/flags/netherlands.avif"
 
 
 const ProfileComponent = () => {
