@@ -2,3 +2,7 @@
     font-family: 'F1BOLD';
     src: url(../../public/fonts/Formula1-Bold.otf);
 }
+@font-face {
+    font-family: 'FLREGULAR';
+    src: url(../../public/fonts/Formula1-Regular.otf);
+}
