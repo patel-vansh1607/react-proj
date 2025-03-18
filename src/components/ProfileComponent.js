@@ -146,6 +146,13 @@ const ProfileComponent = () => {
             img_url: jackDoohan,
             race_number: "7",
         },
+        {
+            name: "Fernando ALONZO",
+            origin: spain ,
+            racing_team: "Aston Martin",
+            img_url: fernandoAlonso,
+            race_number: "14",
+        },
     ])
 
     return(
