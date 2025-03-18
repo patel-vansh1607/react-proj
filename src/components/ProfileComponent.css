@@ -55,3 +55,10 @@
 img{
     border-radius: 10px;
 }
+
+.img1 {
+    width: 50px;
+    padding: 5px;
+    border-radius: 20px;
+
+}
