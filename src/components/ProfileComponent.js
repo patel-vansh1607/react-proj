@@ -174,6 +174,13 @@ const ProfileComponent = () => {
             img_url: laimLawson,
             race_number: "30",
         },
+        {
+            name: "Carlos SAINZ",
+            origin: spain ,
+            racing_team: "Williams",
+            img_url: carlozSainz,
+            race_number: "55",
+        },
     ])
 
     return(
