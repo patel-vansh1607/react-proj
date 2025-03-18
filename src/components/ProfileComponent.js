@@ -2,7 +2,7 @@ import { useState } from "react"
 import "./ProfileComponent.css"
 import landoNorris from "../images/drivers/lando-norris.avif"
 import unitedkingdom from  "../images/flags/united-kindgom.avif"
-import MaxVerstapen from "../images/drivers/max-verstappen.avif"
+import maxVerstapen from "../images/drivers/max-verstappen.avif"
 import netherlands from  "../images/flags/netherlands.avif"
 
 
@@ -16,10 +16,10 @@ const ProfileComponent = () => {
             race_number: "4",
         },
         {
-            name: "LANDO NORRIS",
-            origin: unitedkingdom ,
-            racing_team: "Mclaren",
-            img_url: landoNorris,
+            name: "MAX VERSTAPPEN",
+            origin: netherlands ,
+            racing_team: "Red Bull Racing",
+            img_url: maxVerstapen,
             race_number: "4",
         },
         {
