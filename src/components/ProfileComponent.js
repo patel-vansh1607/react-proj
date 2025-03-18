@@ -61,13 +61,20 @@ const ProfileComponent = () => {
             racing_team: "Mercedes",
             img_url: georgeRussell,
             race_number: "63",
-        },,
+        },
         {
             name: "KIMI ANTONELLI",
             origin: italy ,
             racing_team: "Mercedes",
             img_url: kimiAntonelli,
             race_number: "12",
+        },
+        {
+            name: "ALEXANDER ALBON",
+            origin: thailand ,
+            racing_team: "Williams",
+            img_url: alexanderAlbon,
+            race_number: "23",
         },
         
     ])
